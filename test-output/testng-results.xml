@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM_TestNG_Maven_Suite" duration-ms="33143" started-at="2022-12-15T17:18:08 IST" finished-at="2022-12-15T17:18:41 IST">
+    <groups>
+    </groups>
+    <test name="OrangeHRM_TestNG_Maven_Test" duration-ms="33143" started-at="2022-12-15T17:18:08 IST" finished-at="2022-12-15T17:18:41 IST">
+      <class name="com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="setUpBrowser" is-config="true" duration-ms="28445" started-at="2022-12-15T17:18:08 IST" finished-at="2022-12-15T17:18:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="adminValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="adminValidLoginTest" duration-ms="2972" started-at="2022-12-15T17:18:36 IST" finished-at="2022-12-15T17:18:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminValidLoginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="closeBrowser" is-config="true" duration-ms="1598" started-at="2022-12-15T17:18:39 IST" finished-at="2022-12-15T17:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001 -->
+    </test> <!-- OrangeHRM_TestNG_Maven_Test -->
+  </suite> <!-- OrangeHRM_TestNG_Maven_Suite -->
+</testng-results>

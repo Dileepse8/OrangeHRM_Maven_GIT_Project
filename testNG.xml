@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM_TestNG_Maven_Suite">
+	<test name="OrangeHRM_TestNG_Maven_Test">
+		<parameter name="uname" value="admin"></parameter>
+		<parameter name="pword" value="Qedge123!@#"></parameter>
+		<classes>
+			<class name="com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
