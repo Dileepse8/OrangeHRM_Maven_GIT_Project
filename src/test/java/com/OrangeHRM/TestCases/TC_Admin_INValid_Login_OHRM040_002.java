@@ -22,6 +22,7 @@ public class TC_Admin_INValid_Login_OHRM040_002 extends BaseClass_OHRM040_001 {
 		if (res == true) {
 			Assert.assertTrue(res);
 			log.info("Error msg is displayed");
+			//Code added
 		}
 
 	}
