@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM_TestNG_Maven_Suite">
+	<test name="OrangeHRM_TestNG_Maven_Test_AdminValidData">
+		<parameter name="uname" value="admin"></parameter>
+		<parameter name="pword" value="Qedge123!@#"></parameter>
+		<classes>
+			<class
+				name="com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001"></class>
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="OrangeHRM_TestNG_Maven_AdminInValidData_Test">
+		<parameter name="uname" value="admin"></parameter>
+		<parameter name="pwd" value="admin"></parameter>
+		<classes>
+			<class
+				name="com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002"></class>
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="OrangeHRM_TestNG_Maven_Suite" duration-ms="46953" started-at="2022-12-16T08:11:24 IST" finished-at="2022-12-16T08:12:11 IST">
+  <suite name="OrangeHRM_TestNG_Maven_Suite" duration-ms="58138" started-at="2022-12-16T09:06:14 IST" finished-at="2022-12-16T09:07:12 IST">
     <groups>
     </groups>
-    <test name="OrangeHRM_TestNG_Maven_Test" duration-ms="46953" started-at="2022-12-16T08:11:24 IST" finished-at="2022-12-16T08:12:11 IST">
+    <test name="OrangeHRM_TestNG_Maven_Test_AdminValidData" duration-ms="22071" started-at="2022-12-16T09:06:14 IST" finished-at="2022-12-16T09:06:36 IST">
       <class name="com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001">
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="setUpBrowser" is-config="true" duration-ms="38377" started-at="2022-12-16T08:11:24 IST" finished-at="2022-12-16T08:12:02 IST">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="setUpBrowser" is-config="true" duration-ms="10787" started-at="2022-12-16T09:06:14 IST" finished-at="2022-12-16T09:06:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="adminValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="adminValidLoginTest" duration-ms="6536" started-at="2022-12-16T08:12:02 IST" finished-at="2022-12-16T08:12:09 IST">
+        <test-method status="PASS" signature="adminValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="adminValidLoginTest" duration-ms="9606" started-at="2022-12-16T09:06:25 IST" finished-at="2022-12-16T09:06:35 IST">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminValidLoginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="closeBrowser" is-config="true" duration-ms="1732" started-at="2022-12-16T08:12:09 IST" finished-at="2022-12-16T08:12:11 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001@77ec78b9]" name="closeBrowser" is-config="true" duration-ms="1572" started-at="2022-12-16T09:06:35 IST" finished-at="2022-12-16T09:06:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001 -->
-    </test> <!-- OrangeHRM_TestNG_Maven_Test -->
+    </test> <!-- OrangeHRM_TestNG_Maven_Test_AdminValidData -->
+    <test name="OrangeHRM_TestNG_Maven_AdminInValidData_Test" duration-ms="36004" started-at="2022-12-16T09:06:36 IST" finished-at="2022-12-16T09:07:12 IST">
+      <class name="com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002@3891771e]" name="setUpBrowser" is-config="true" duration-ms="27179" started-at="2022-12-16T09:06:36 IST" finished-at="2022-12-16T09:07:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="AdminInvalidData(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002@3891771e]" name="AdminInvalidData" duration-ms="3552" started-at="2022-12-16T09:07:03 IST" finished-at="2022-12-16T09:07:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminInvalidData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002@3891771e]" name="closeBrowser" is-config="true" duration-ms="5269" started-at="2022-12-16T09:07:07 IST" finished-at="2022-12-16T09:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002 -->
+    </test> <!-- OrangeHRM_TestNG_Maven_AdminInValidData_Test -->
   </suite> <!-- OrangeHRM_TestNG_Maven_Suite -->
 </testng-results>
