@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [OrangeHRM_TestNG_Maven_Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="OrangeHRM_TestNG_Maven_Test(failed)" verbose="0">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OrangeHRM_TestNG_Maven_Suite]">
+  <test thread-count="5" verbose="0" name="OrangeHRM_TestNG_Maven_Test_AdminValidData(failed)">
     <parameter name="uname" value="admin"/>
     <parameter name="pword" value="Qedge123!@#"/>
     <classes>
@@ -13,5 +13,18 @@
         </methods>
       </class> <!-- com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001 -->
     </classes>
-  </test> <!-- OrangeHRM_TestNG_Maven_Test(failed) -->
+  </test> <!-- OrangeHRM_TestNG_Maven_Test_AdminValidData(failed) -->
+  <test thread-count="5" verbose="0" name="OrangeHRM_TestNG_Maven_AdminInValidData_Test(failed)">
+    <parameter name="uname" value="admin"/>
+    <parameter name="pwd" value="admin"/>
+    <classes>
+      <class name="com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setUpBrowser"/>
+          <include name="AdminInvalidData"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002 -->
+    </classes>
+  </test> <!-- OrangeHRM_TestNG_Maven_AdminInValidData_Test(failed) -->
 </suite> <!-- Failed suite [OrangeHRM_TestNG_Maven_Suite] -->

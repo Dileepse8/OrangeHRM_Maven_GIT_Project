@@ -9,10 +9,218 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">OrangeHRM_TestNG_Maven_Suite</th></tr>
-<tr><td><a href="#t0">OrangeHRM_TestNG_Maven_Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">30,617</td><td></td><td></td></tr>
+<tr><td><a href="#t0">OrangeHRM_TestNG_Maven_Test_AdminValidData</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">3,246</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">OrangeHRM_TestNG_Maven_AdminInValidData_Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">1,231</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num">4,477</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM_TestNG_Maven_Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OrangeHRM_TestNG_Maven_Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001</td><td><a href="#m0">adminValidLoginTest</a></td><td rowspan="1">1671158732550</td><td rowspan="1">8230</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM_TestNG_Maven_Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OrangeHRM_TestNG_Maven_Test_AdminValidData &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001</td><td><a href="#m0">setUpBrowser</a></td><td rowspan="1">1671166387112</td><td rowspan="1">3144</td></tr><tr><th colspan="4">OrangeHRM_TestNG_Maven_Test_AdminValidData &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001</td><td><a href="#m1">closeBrowser</a></td><td rowspan="1">1671166390358</td><td rowspan="1">0</td></tr><tr><th colspan="4">OrangeHRM_TestNG_Maven_Test_AdminValidData &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001</td><td><a href="#m2">adminValidLoginTest</a></td><td rowspan="1">1671166390303</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">OrangeHRM_TestNG_Maven_AdminInValidData_Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002</td><td><a href="#m3">setUpBrowser</a></td><td rowspan="1">1671166390550</td><td rowspan="1">1231</td></tr><tr><th colspan="4">OrangeHRM_TestNG_Maven_AdminInValidData_Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002</td><td><a href="#m4">closeBrowser</a></td><td rowspan="1">1671166391781</td><td rowspan="1">0</td></tr><tr><th colspan="4">OrangeHRM_TestNG_Maven_AdminInValidData_Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002</td><td><a href="#m5">AdminInvalidData</a></td><td rowspan="1">1671166391781</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>OrangeHRM_TestNG_Maven_Test</h2><h3 id="m0">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001#adminValidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>Qedge123!@#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrangeHRM_TestNG_Maven_Test_AdminValidData</h2><h3 id="m0">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001#setUpBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-UULIG8AC&apos;, ip: &apos;192.168.1.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C8ACD3+2075859]
+	Ordinal0 [0x00C1EE61+1633889]
+	Ordinal0 [0x00B1B7BD+571325]
+	Ordinal0 [0x00B38950+690512]
+	Ordinal0 [0x00B36BE9+682985]
+	Ordinal0 [0x00B6DBD3+908243]
+	Ordinal0 [0x00B6D6AA+906922]
+	Ordinal0 [0x00B67136+880950]
+	Ordinal0 [0x00B3FEFD+720637]
+	Ordinal0 [0x00B40F3F+724799]
+	GetHandleVerifier [0x00F3EED2+2769538]
+	GetHandleVerifier [0x00F30D95+2711877]
+	GetHandleVerifier [0x00D1A03A+521194]
+	GetHandleVerifier [0x00D18DA0+516432]
+	Ordinal0 [0x00C2682C+1665068]
+	Ordinal0 [0x00C2B128+1683752]
+	Ordinal0 [0x00C2B215+1683989]
+	Ordinal0 [0x00C36484+1729668]
+	BaseThreadInitThunk [0x7755FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77A67BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77A67B8E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.OrangeHRM.AppUtils.BaseClass_OHRM040_001.setUpBrowser(BaseClass_OHRM040_001.java:26)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.OrangeHRM.TestCases.TC_Admin_Valid_Login_OHRM040_001#adminValidLoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-UULIG8AC&apos;, ip: &apos;192.168.1.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C8ACD3+2075859]
+	Ordinal0 [0x00C1EE61+1633889]
+	Ordinal0 [0x00B1B7BD+571325]
+	Ordinal0 [0x00B38950+690512]
+	Ordinal0 [0x00B36BE9+682985]
+	Ordinal0 [0x00B6DBD3+908243]
+	Ordinal0 [0x00B6D6AA+906922]
+	Ordinal0 [0x00B67136+880950]
+	Ordinal0 [0x00B3FEFD+720637]
+	Ordinal0 [0x00B40F3F+724799]
+	GetHandleVerifier [0x00F3EED2+2769538]
+	GetHandleVerifier [0x00F30D95+2711877]
+	GetHandleVerifier [0x00D1A03A+521194]
+	GetHandleVerifier [0x00D18DA0+516432]
+	Ordinal0 [0x00C2682C+1665068]
+	Ordinal0 [0x00C2B128+1683752]
+	Ordinal0 [0x00C2B215+1683989]
+	Ordinal0 [0x00C36484+1729668]
+	BaseThreadInitThunk [0x7755FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77A67BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77A67B8E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.OrangeHRM.AppUtils.BaseClass_OHRM040_001.setUpBrowser(BaseClass_OHRM040_001.java:26)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrangeHRM_TestNG_Maven_AdminInValidData_Test</h2><h3 id="m3">com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002#setUpBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-UULIG8AC&apos;, ip: &apos;192.168.1.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C8ACD3+2075859]
+	Ordinal0 [0x00C1EE61+1633889]
+	Ordinal0 [0x00B1B7BD+571325]
+	Ordinal0 [0x00B38950+690512]
+	Ordinal0 [0x00B36BE9+682985]
+	Ordinal0 [0x00B6DBD3+908243]
+	Ordinal0 [0x00B6D6AA+906922]
+	Ordinal0 [0x00B67136+880950]
+	Ordinal0 [0x00B3FEFD+720637]
+	Ordinal0 [0x00B40F3F+724799]
+	GetHandleVerifier [0x00F3EED2+2769538]
+	GetHandleVerifier [0x00F30D95+2711877]
+	GetHandleVerifier [0x00D1A03A+521194]
+	GetHandleVerifier [0x00D18DA0+516432]
+	Ordinal0 [0x00C2682C+1665068]
+	Ordinal0 [0x00C2B128+1683752]
+	Ordinal0 [0x00C2B215+1683989]
+	Ordinal0 [0x00C36484+1729668]
+	BaseThreadInitThunk [0x7755FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77A67BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77A67B8E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.OrangeHRM.AppUtils.BaseClass_OHRM040_001.setUpBrowser(BaseClass_OHRM040_001.java:26)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.OrangeHRM.TestCases.TC_Admin_INValid_Login_OHRM040_002#AdminInvalidData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-UULIG8AC&apos;, ip: &apos;192.168.1.46&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C8ACD3+2075859]
+	Ordinal0 [0x00C1EE61+1633889]
+	Ordinal0 [0x00B1B7BD+571325]
+	Ordinal0 [0x00B38950+690512]
+	Ordinal0 [0x00B36BE9+682985]
+	Ordinal0 [0x00B6DBD3+908243]
+	Ordinal0 [0x00B6D6AA+906922]
+	Ordinal0 [0x00B67136+880950]
+	Ordinal0 [0x00B3FEFD+720637]
+	Ordinal0 [0x00B40F3F+724799]
+	GetHandleVerifier [0x00F3EED2+2769538]
+	GetHandleVerifier [0x00F30D95+2711877]
+	GetHandleVerifier [0x00D1A03A+521194]
+	GetHandleVerifier [0x00D18DA0+516432]
+	Ordinal0 [0x00C2682C+1665068]
+	Ordinal0 [0x00C2B128+1683752]
+	Ordinal0 [0x00C2B215+1683989]
+	Ordinal0 [0x00C36484+1729668]
+	BaseThreadInitThunk [0x7755FEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77A67BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77A67B8E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.OrangeHRM.AppUtils.BaseClass_OHRM040_001.setUpBrowser(BaseClass_OHRM040_001.java:26)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
